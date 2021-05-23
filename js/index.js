@@ -104,7 +104,7 @@ $(".slide_group1").slick({
 $(".slide_group2").slick({
     autoplay: true, // 자동재생
     autoplaySpeed: 3000, // 간격시간
-    speed: 300, // 바뀌는시간(생략가능)
+    speed: 200, // 바뀌는시간(생략가능)
     slidesToShow: 5, // 보여질슬라이드수 
     slidesToScroll: 1, // 이동슬라이드수
     cssEase: 'linear', // 속도함수(생략가능)
