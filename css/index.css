@@ -1,0 +1,32 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Recursive&display=swap');
+body {font-family: 'Noto Sans KR', sans-serif, 'Recursive', sans-serif; color: #222;}
+.row {max-width: 1200px; margin: 0 auto; padding: 0 10px;}
+
+
+/* article1구역 슬라이드 */
+.article1 {margin-bottom: 50px;}
+.slide_group1 {position: relative;}
+.slide img {width: 100%;}
+.slide_group1 .slick-arrow {position: absolute; top: 50%; transform: translateY(-50%);
+                            border: none; background: none; z-index: 9999; font-size: 50px; color:#fff;}
+.slide_group1 .prev {left: 50px;}
+.slide_group1 .next {right: 50px;}
+.slide_group1 .slick-dots {position: absolute; bottom: 15px; left: 0; right: 0; text-align: center;}
+.slide_group1 .slick-dots li {display: inline-block; margin: 0 5px}
+.slide_group1 .slick-dots li button {width: 16px; height: 16px; border-radius: 50%; color: transparent; background:rgba(255, 255, 255, 0.5);
+                                     border: none; text-indent: -9999px;}
+.slide_group1 .slick-dots li.slick-active button {background: none; border: 2px solid rgba(255, 255, 255, 1)}
+.slide_group1 .slide1 {background: url(../img/slide_1.png) no-repeat center;
+                       height: 600px; background-size: cover; }
+.slide_group1 .slide2 {background: url(../img/slide_2.png) no-repeat center;
+                       height: 600px; background-size: cover;}
+.slide_group1 .slide3 {background: url(../img/slide_3.png) no-repeat center;
+                       height: 600px; background-size: cover;}
+.slide_group1 .slide4 {background: url(../img/slide_4.png) no-repeat center bottom;
+                       height: 600px; background-size: cover;}
+.slide_group1 .slide5 {background: url(../img/slide_5.png) no-repeat center bottom;
+                       height: 600px; background-size: cover;}
+.slide_group1 .slide6 {background: url(../img/slide_6.jpg) no-repeat center;
+                       height: 600px; background-size: cover;}
+
